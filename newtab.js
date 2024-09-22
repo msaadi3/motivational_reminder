@@ -34,7 +34,7 @@ function updatePage() {
       if (items.name && items.goal && items.deadline) {
         document.getElementById(
           'wake-up'
-        ).textContent = `WAKE THE FUCK UP ${items.name.toUpperCase()}`;
+        ).textContent = `WAKE UP ${items.name.toUpperCase()}!`;
         document.getElementById('goal').textContent = items.goal;
 
         const deadline = new Date(items.deadline);
